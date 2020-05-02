@@ -103,3 +103,27 @@ p {
   margin-left:210px;
   margin-bottom: 20px;
 }
+
+
+@media (max-width:1028px) {
+  .card1-div {
+    margin:0px;
+  }
+  .card2-div {
+    margin:0px;
+  }
+  .card3-div {
+    margin:0px;
+  }
+}
+@media (max-width:375px) {
+  .card1-div {
+    margin:0px;
+  }
+  .card2-div {
+    margin:0px;
+  }
+  .card3-div {
+    margin:0px;
+  }
+}
