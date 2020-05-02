@@ -2,6 +2,9 @@ body {
   background-color:#f0f0f0;
   font-family: 'Poppins', sans-serif;
   margin : 0 0;
+  background-image: url("../images/favicon-32x32.png");
+  background-repeat: norepeat;
+  background-size: 580px;
 }
 
 
