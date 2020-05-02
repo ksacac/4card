@@ -4,16 +4,34 @@ body {
   margin : 0 0;
 }
 
+
+h3 {
+  margin: 20px 30px;
+  text-align: left;
+  font-size:1.3rem;
+}
+
+p {
+  margin: 5px 30px;
+  text-align: left;
+  font-size:0.9rem;
+  color:#bdbdbd;
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+
+
 #features {
   background-color: #fff;
   margin: 3% 10%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  height:750px;
+  height:700px;
 }
 
 .text-div {
-  padding: 5% 5%;
+  padding: 3% 0% 1% 0%;
 }
 
 .text1 {
@@ -21,6 +39,7 @@ body {
   font-weight: 200;
   font-size:2rem;
   margin:auto;
+  padding: 10px;
 }
 
 .text2 {
@@ -37,71 +56,49 @@ body {
   margin:auto;
 }
 
-
-
-.card1 {
-  background-color: #fff;
-  padding:2% 2%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width:17%;
-  position: absolute;
-  left:39.5%;
-  top:34%;
-  border-top: 4px solid red;
-  text-align: left;
+.card-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
 }
 
+.box-design {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width:300px;
+  text-align: left;
+  border-radius: 8px;
+  margin:17px 17px;
+}
+
+.card1-div {
+  margin-top:100px;
+}
+
+.card3-div {
+  margin-top:100px;
+}
+
+.card1 {
+  border-top: 4px solid red;
+}
 
 .card2 {
-  background-color: #fff;
-  padding:2% 2%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width:17%;
-  position: absolute;
-  left:16%;
-  top:49%;
   border-top: 4px solid #3bb2b0;
-  text-align: left;
 }
 
 .card3 {
-  background-color: #fff;
-  padding:2% 2%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width:17%;
-  position: absolute;
-  right:16%;
-  top:49%;
   border-top: 4px solid #4082b6;
-  text-align: left;
 }
 
 .card4 {
-  background-color: #fff;
-  padding:2% 2%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width:17%;
-  position: absolute;
-  left:39.5%;
-  top:66%;
   border-top: 4px solid #d8a347;
-  text-align: left;
 }
 
-.card-text1 {
-  font-size:1.3rem;
-  margin:auto;
-}
-
-.card-text2 {
-  font-size:0.9rem;
-  margin:8px auto;
-  color:#bdbdbd;
-  font-weight: 200;
-  line-height: 1.2;
-}
 
 .icon-img {
-  padding-top:4%;
-  padding-left:75%;
+  margin-left:210px;
+  margin-bottom: 20px;
 }
