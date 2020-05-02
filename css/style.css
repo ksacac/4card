@@ -1,0 +1,107 @@
+body {
+  background-color:#f0f0f0;
+  font-family: 'Poppins', sans-serif;
+  margin : 0 0;
+}
+
+#features {
+  background-color: #fff;
+  margin: 3% 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height:750px;
+}
+
+.text-div {
+  padding: 5% 5%;
+}
+
+.text1 {
+  color:#9e9da2;
+  font-weight: 200;
+  font-size:2rem;
+  margin:auto;
+}
+
+.text2 {
+  color:#4d4c5a;
+  font-weight: 400;
+  font-size:2.5rem;
+  margin:auto;
+}
+
+.text3 {
+  color:#9e9da2;
+  font-weight: 200;
+  font-size:0.7rem;
+  margin:auto;
+}
+
+
+
+.card1 {
+  background-color: #fff;
+  padding:2% 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width:17%;
+  position: absolute;
+  left:39.5%;
+  top:34%;
+  border-top: 4px solid red;
+  text-align: left;
+}
+
+
+.card2 {
+  background-color: #fff;
+  padding:2% 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width:17%;
+  position: absolute;
+  left:16%;
+  top:49%;
+  border-top: 4px solid #3bb2b0;
+  text-align: left;
+}
+
+.card3 {
+  background-color: #fff;
+  padding:2% 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width:17%;
+  position: absolute;
+  right:16%;
+  top:49%;
+  border-top: 4px solid #4082b6;
+  text-align: left;
+}
+
+.card4 {
+  background-color: #fff;
+  padding:2% 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width:17%;
+  position: absolute;
+  left:39.5%;
+  top:66%;
+  border-top: 4px solid #d8a347;
+  text-align: left;
+}
+
+.card-text1 {
+  font-size:1.3rem;
+  margin:auto;
+}
+
+.card-text2 {
+  font-size:0.9rem;
+  margin:8px auto;
+  color:#bdbdbd;
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+.icon-img {
+  padding-top:4%;
+  padding-left:75%;
+}
